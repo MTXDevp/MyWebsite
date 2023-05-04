@@ -1,13 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HeaderComponent } from './components/componente1/header.component';
-import { MainComponent } from './components/componente2/main.component';
-
+import { VpnComponent } from './components/vpn/vpn.component';
 
 const routes: Routes = [
-
-  { path: 'header', component: HeaderComponent },
-  { path: 'main', component: MainComponent },
+  { path: 'vpn', component: VpnComponent},
 
 ];
 
